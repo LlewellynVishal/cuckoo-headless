@@ -17,7 +17,7 @@ Original code for Cuckoo monitor here: https://github.com/cuckoosandbox/monitor
     $ git clone https://github.com/evandowning/cuckoo-headless.git
     $ cd cuckoo-headless
     ```
-  * Download, compile, and copy cuckoo monitor contents.
+  * Download, compile (on Linux), and copy cuckoo monitor contents.
     ```
     $ git clone https://github.com/evandowning/monitor.git
     $ cd monitor
@@ -30,7 +30,7 @@ Original code for Cuckoo monitor here: https://github.com/cuckoosandbox/monitor
     $ cd ../windows-analyzer
     ```
   * Modify analysis.conf file to specify settings.
-  * On target machine run:
+  * On target machine (on Windows) run:
     Open command prompt in Administrator mode
     ```
     $ cd windows-analyer
@@ -40,7 +40,7 @@ Original code for Cuckoo monitor here: https://github.com/cuckoosandbox/monitor
 
 ## Parsing BSON file
 
-I have also provided code to parse the resulting log.bson file.
+I have also provided code to parse the resulting log.bson file (Run the log file back on Linux to get the API traces).
 
 ```
 $ cd bson-parser
